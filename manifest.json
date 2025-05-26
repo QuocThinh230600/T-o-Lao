@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Delete Con Ong Nhìn như Loz",
+  "version": "1.0",
+  "description": "CSS + JS",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://shopee.vn/*"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://chat.zalo.me//*"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ]
+}
