@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "supper display none",
-  "version": "1.0",
+  "version": "v1.2",
   "description": "CSS + JS",
   "permissions": [
     "activeTab"
